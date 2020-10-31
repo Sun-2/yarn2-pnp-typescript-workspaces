@@ -1,0 +1,11 @@
+{
+  "name": "yarn2workspaces",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "server": "yarn node packages/server"
+  },
+  "private": true,
+  "version": "1.0.0"
+}

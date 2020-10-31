@@ -1,0 +1,13 @@
+{
+  "name": "back",
+  "version": "0.0.1",
+  "dependencies": {
+    "dotenv": "latest",
+    "shared": "workspace:*",
+    "typescript": "^4.0.5"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "yarn tsc --build"
+  }
+}

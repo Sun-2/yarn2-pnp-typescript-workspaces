@@ -1,0 +1,10 @@
+{
+  "name": "front",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "yarn tsc --build"
+  },
+  "dependencies": {
+    "shared": "workspace:*"
+  }
+}
